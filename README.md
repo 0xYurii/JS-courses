@@ -29,9 +29,12 @@ This project is my JavaSript learning course, basically i solve the problems fro
 
 ```
 /JS Course
-├── lessons/
-├── projects/
-├── exercises/
+├── 1. Build a Passenger Counter App
+├── 2. Practise time - part 1
+├── 3. Build a Blackjack game
+├── 4. Practise time - part 2
+├── 5. Build a Chrome Extention
+├── 6. Practise time - part 3
 └── README.md
 ```
 
