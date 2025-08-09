@@ -1,10 +1,16 @@
-// document.getElementById("count").innerText = 5
+//document.getElementById("count").innerText = 5
 
-let count = 0
+// let fitstbatch=5
+// let secondbatch=7
+// let count = fitstbatch + secondbatch
 
-console.log(count)
 
 
-// 1. Create a variable, myAge, and set its value to your age
+// console.log(count)
 
-// 2. Log the myAge variable to the console
+
+// let myAge=20
+// let humanDogRatio=7
+// let myDogAge= myAge* humanDogRatio
+
+// console.log(myDogAge)

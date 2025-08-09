@@ -30,9 +30,15 @@ button {
 
 #increment-btn {
     background: darkred;
+    padding: 1rem;
+    border-radius: 15px;
+    color: aliceblue;
 }
 
 #save-btn {
     background: darkgreen;
+    padding: 1rem;
+    border-radius: 15px;
+    color: aliceblue;
 }
 
