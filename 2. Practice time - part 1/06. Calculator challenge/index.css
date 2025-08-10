@@ -12,8 +12,8 @@ span {
 
 button {
     margin: 20px 0;
-    background: white;
-    color: black;
+    background: grey;
+    color: rgba(25, 24, 24, 0.814);
     border: 1px solid black;
     font-weight: bold;
     cursor: pointer;
