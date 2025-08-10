@@ -17,6 +17,18 @@ h1 {
 
 /* 3. Make sure that the two buttons have some space between
 each other when they are rendered out vertically */
+.button-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.button-group button{
+    margin-bottom: 5px;
+}
+
 button {
     color: #016f32;
     width: 150px;
@@ -26,4 +38,6 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 2px;
+    /* margin: 5px; */
+    
 }
