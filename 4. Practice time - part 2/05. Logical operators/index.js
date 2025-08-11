@@ -5,4 +5,8 @@ let weekday = "Friday"
 // Use the logical "AND operator" -> &&
 
 
-
+if (dayOfMonth===13 && weekday==="Friday"){
+    console.log("👻")
+}else{
+    console.log("Sorry, it's not the day")
+}
