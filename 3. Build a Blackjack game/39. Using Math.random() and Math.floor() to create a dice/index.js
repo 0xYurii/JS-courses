@@ -1,4 +1,4 @@
-let randomNumber = Math.random() * 6
+let randomNumber = Math.floor(Math.random() * 10)
 
 console.log(randomNumber)
 

@@ -9,3 +9,6 @@ function showSolution() {
 }
 
 
+if (hasSolvedChallenge===false && hasHintsLeft===false){
+    showSolution()
+}

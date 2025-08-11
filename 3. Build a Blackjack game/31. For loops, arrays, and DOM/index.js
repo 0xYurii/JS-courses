@@ -3,3 +3,9 @@ let greetingEl = document.getElementById("greeting-el")
 
 // Render the sentence in the greetingEl paragraph using a for loop and .textContent
 
+for (let i=0; i<length(sentence);i++){
+
+    greetingEl.textContent+=sentence[i]
+    console.log(greetingEl)
+
+}
