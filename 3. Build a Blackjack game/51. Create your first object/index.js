@@ -3,3 +3,9 @@
 // Log out at least two of the keys using the dot notation
 
 
+let airbnb={
+    freeforrent:true,
+    name:"king harsel",
+    price:698,
+    status:["new","far from cevil"]
+}

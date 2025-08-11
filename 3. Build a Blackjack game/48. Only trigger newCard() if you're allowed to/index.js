@@ -49,8 +49,16 @@ function renderGame() {
 
 function newCard() {
     // Only allow the player to get a new card if she IS alive and does NOT have Blackjack
-    let card = getRandomCard()
-    sum += card
-    cards.push(card)
-    renderGame()
+
+    if (isAlive&& hasBlackJack===false){
+        let card = getRandomCard()
+        sum += card
+        cards.push(card)
+        renderGame()
+    
+    // }else if(isAlive&& hasBlackJack){
+    //     console.log("You already got Blackjack!")
+    // }else{
+    //     console.log("You are dead man")
+    }
 }
