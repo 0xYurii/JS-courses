@@ -14,9 +14,19 @@ green color -> #5f9341
 
 
 input {
-    
+    width: 100%;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border:1px solid #5f9341;
 }
 
 button {
-    
+    color: aliceblue;
+    background-color:#5f9341;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
 }
