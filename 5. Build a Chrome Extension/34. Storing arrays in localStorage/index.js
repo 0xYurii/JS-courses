@@ -1,6 +1,6 @@
 let myLeads = ["www.awesomelead.com"]
 
-
+// myLeads=JSON.parse(myLeads)
 
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
