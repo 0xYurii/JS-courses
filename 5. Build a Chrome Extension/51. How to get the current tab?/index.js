@@ -18,6 +18,9 @@ const tabs = [
 
 tabBtn.addEventListener("click", function(){
     // Grab the URL of the current tab!
+    chrome.tabs.query({})
+
+
     myLeads.push(tabs[0].url)
     localStorage.setItem("myLeads", JSON.stringify(myLeads) )
     render(myLeads)
